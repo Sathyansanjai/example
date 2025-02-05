@@ -1,0 +1,23 @@
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: rgb(218, 156, 24);
+}
+.box3{
+    background-color: rgb(138, 212, 17);
+}
+.box4{
+    background-color: rgb(192, 9, 152);
+}
+.box5{
+    background-color: rgb(75, 12, 177);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: space-around;
+    align-items: center;
+}

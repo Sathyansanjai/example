@@ -1,0 +1,71 @@
+body {
+    background-image: url('Carpentry-Service-In-Seattle.jpg');
+    background-size:auto; 
+    background-repeat: no-repeat; 
+    background-position: center;
+
+        font-family: "Poly", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Poly", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+       
+.navbar{
+
+        color: darkred; 
+        font-weight: 500;
+}
+.align{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    font-size: larger;
+    background-image: url(R.jpeg);
+    background-size: auto;
+    border-radius: 5px;}
+.item a{text-decoration: none;
+    text-transform: uppercase;
+    gap: 10px;
+    color: inherit;
+    font-weight: bold;
+    color: rgb(2, 10, 12);
+     } 
+.about{
+        h1{color: rgb(18, 3, 83);}
+        text-align: center;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translatey(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translatey(0);
+    }
+}
+.para p {
+    font-size: 20px;
+    line-height: 1.6;
+    animation: fadeIn 2s ease-in-out;
+    
+    color: rgb(7, 1, 1);
+    
+}
+
+    
+
+      
+
+
+
+
+
+
+
+
+    
